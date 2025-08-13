@@ -33,4 +33,4 @@ jobs:
           git pull origin main
           source venv/bin/activate
           pip install -r requirements.txt
-          sudo systemctl restart bot-service.service
+          sudo systemctl restart telegram-bot.service
