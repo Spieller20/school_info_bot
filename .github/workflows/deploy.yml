@@ -2,7 +2,7 @@ name: Deploy Telegram Bot
 
 on:
   push:
-    branches: [ main, master ] # Активировать при пуше в main/master
+    branches: [ main ] # Активировать при пуше в main/master
     tags: [ 'v*' ]             # Дополнительно: активировать по тегам v*
 
 jobs:
