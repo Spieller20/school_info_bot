@@ -1,2 +1,6 @@
 pyTelegramBotAPI
 python-dotenv
+dotenv
+pathlib
+sqlite3
+os
