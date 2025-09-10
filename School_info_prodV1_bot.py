@@ -274,8 +274,8 @@ def func(message):
     elif(message.text == "Декабрь"):
      markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
      btn1 = types.KeyboardButton("6, 8 декабря 2025")
-     btn2 = types.KeyboardButton("13, 15, декабря 2025")
-     btn3 = types.KeyboardButton("20, 25 декабря 2025")
+     btn2 = types.KeyboardButton("13, 15 декабря 2025")
+     btn3 = types.KeyboardButton("20, 22 декабря 2025")
      btn4 = types.KeyboardButton("27, 29 декабря 2025")
      btn5 = types.KeyboardButton("Домашние задания")
      btn6 = types.KeyboardButton("Главное меню")
@@ -773,7 +773,7 @@ def func(message):
                       "\nМузыкальная литература:\n",
                          parse_mode='HTML')
 
-    elif(message.text == "27, 27 декабря 2025"):     
+    elif(message.text == "27, 29 декабря 2025"):     
      bot.send_message(message.chat.id,
                       "<b><i>1 класс:</i></b>\nСольфеджио:\n"
                       "Слушание музыки:\n\n "
