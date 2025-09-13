@@ -248,7 +248,7 @@ def func(message):
      markup.add(btn1, btn2, btn3, btn4, btn5, btn6)
      bot.send_message(message.chat.id,text="Выберите дату урока", reply_markup=markup)
 
-   elif(message.text == "Октябрь"):
+    elif(message.text == "Октябрь"):
      markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
      btn1 = types.KeyboardButton("4, 6 октября 2025")
      btn2 = types.KeyboardButton("11, 13 октября 2025")
