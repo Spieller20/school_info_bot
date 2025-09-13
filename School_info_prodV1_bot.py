@@ -248,7 +248,7 @@ def func(message):
      markup.add(btn1, btn2, btn3, btn4, btn5, btn6)
      bot.send_message(message.chat.id,text="Выберите дату урока", reply_markup=markup)
 
-    elif(message.text == "Октябрь"):
+    elif(message.text == "Октябрьток"):
      markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
      btn1 = types.KeyboardButton("4, 6 октября 2025")
      btn2 = types.KeyboardButton("11, 13 октября 2025")
@@ -259,7 +259,7 @@ def func(message):
      markup.add(btn1, btn2, btn3, btn4, btn5, btn6)
      bot.send_message(message.chat.id,text="Выберите дату урока", reply_markup=markup)
 
-    elif(message.text == "Ноябрь"):
+    elif(message.text == "Ноябрьток"):
      markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
      btn1 = types.KeyboardButton("1, 3 ноября 2025")
      btn2 = types.KeyboardButton("8, 10 ноября 2025")
@@ -271,7 +271,7 @@ def func(message):
      markup.add(btn1, btn2, btn3, btn4, btn5, btn6, btn7)
      bot.send_message(message.chat.id,text="Выберите дату урока", reply_markup=markup)
 
-    elif(message.text == "Декабрь"):
+    elif(message.text == "Декабрьток"):
      markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
      btn1 = types.KeyboardButton("6, 8 декабря 2025")
      btn2 = types.KeyboardButton("13, 15 декабря 2025")
@@ -282,7 +282,7 @@ def func(message):
      markup.add(btn1, btn2, btn3, btn4, btn5, btn6)
      bot.send_message(message.chat.id,text="Выберите дату урока", reply_markup=markup)
 
-    elif(message.text == "Январь"):
+    elif(message.text == "Январьток"):
      markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
      btn1 = types.KeyboardButton("3, 5 января 2026")
      btn2 = types.KeyboardButton("10, 12 января 2026")
@@ -294,7 +294,7 @@ def func(message):
      markup.add(btn1, btn2, btn3, btn4, btn5, btn6,btn7)
      bot.send_message(message.chat.id,text="Выберите дату урока", reply_markup=markup) 
 
-    elif(message.text == "Февраль"):
+    elif(message.text == "Февральток"):
      markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
      btn1 = types.KeyboardButton("7, 9 февраля 2026")
      btn2 = types.KeyboardButton("14, 16 февраля 2026")
@@ -305,7 +305,7 @@ def func(message):
      markup.add(btn1, btn2, btn3, btn4, btn5, btn6)
      bot.send_message(message.chat.id,text="Выберите дату урока", reply_markup=markup)
 
-    elif(message.text == "Март"):
+    elif(message.text == "Мартток"):
      markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
      btn1 = types.KeyboardButton("7, 9 марта 2026")
      btn2 = types.KeyboardButton("14, 16 марта 2026")
@@ -316,7 +316,7 @@ def func(message):
      markup.add(btn1, btn2, btn3, btn4, btn5, btn6)
      bot.send_message(message.chat.id,text="Выберите дату урока", reply_markup=markup)
 
-    elif(message.text == "Апрель"):
+    elif(message.text == "Апрельток"):
      markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
      btn1 = types.KeyboardButton("4, 6 апреля 2026")
      btn2 = types.KeyboardButton("11, 13 апреля 2026")
@@ -327,7 +327,7 @@ def func(message):
      markup.add(btn1, btn2, btn3, btn4, btn5, btn6)
      bot.send_message(message.chat.id,text="Выберите дату урока", reply_markup=markup)
 
-    elif(message.text == "Май"):
+    elif(message.text == "Майток"):
      markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
      btn1 = types.KeyboardButton("2, 4 мая 2026")
      btn2 = types.KeyboardButton("9, 11 мая 2026")
@@ -368,7 +368,7 @@ def func(message):
                       "\n\n<b><i>Музыкальная литература:</i></b> Класса нет\n",
                          parse_mode='HTML')
 
-    elif(message.text == "13, 15 сентября 2025"):     
+    elif(message.text == "ток13, 15 сентября 2025"):     
      bot.send_message(message.chat.id,
                       "<b><i>1 класс:</i></b>\nСольфеджио:\n"
                       "Слушание музыки:\n\n "
@@ -395,7 +395,7 @@ def func(message):
                       "\nМузыкальная литература:\n",
                         parse_mode='HTML')
      
-    elif(message.text == "20, 22 сентября 2025"):     
+    elif(message.text == "ток20, 22 сентября 2025"):     
      bot.send_message(message.chat.id,
                       "<b><i>1 класс:</i></b>\nСольфеджио:\n"
                       "Слушание музыки:\n\n "
@@ -422,7 +422,7 @@ def func(message):
                       "\nМузыкальная литература:\n",
                          parse_mode='HTML')
 
-    elif(message.text == "27, 29 сентября 2025"):     
+    elif(message.text == "ток27, 29 сентября 2025"):     
      bot.send_message(message.chat.id,
                       "<b><i>1 класс:</i></b>\nСольфеджио:\n"
                       "Слушание музыки:\n\n "
