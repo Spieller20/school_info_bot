@@ -433,7 +433,7 @@ def func(message):
                          parse_mode='HTML')
      bot.send_photo(message.chat.id, 'https://disk.yandex.ru/i/zohfANwSMnYnlQ', caption='5,6 класс - Крылатые качели петь с тактированием и названием нот')
      bot.send_photo(message.chat.id, 'https://disk.yandex.ru/i/zj8SKEdwAv5f7g', caption='1 кл. внебюджет (7-9 лет) - раскрасить рисунок')
-     bot.send_photo(message.chat.id, document='https://disk.yandex.ru/i/UZT1IwQBaXjASA', caption='1 кл. внебюджет (10-14 лет) - расставить тактовые чёрточки')
+     bot.send_photo(message.chat.id, 'https://disk.yandex.ru/i/UZT1IwQBaXjASA', caption='1 кл. внебюджет (10-14 лет) - расставить тактовые чёрточки')
 
     elif(message.text == "(locked)27, 29 сентября 2025"):     
      bot.send_message(message.chat.id,
