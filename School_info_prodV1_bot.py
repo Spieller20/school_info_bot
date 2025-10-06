@@ -432,8 +432,8 @@ def func(message):
                       "\n\n<b><i>Музыкальная литература:</i></b> Класса нет\n",
                          parse_mode='HTML')
      bot.send_photo(message.chat.id, 'https://disk.yandex.ru/i/zohfANwSMnYnlQ', caption='<b><i>5,6 класс -</i></b> Крылатые качели петь с тактированием и названием нот', parse_mode='HTML')
-     bot.send_photo(message.chat.id, 'https://disk.yandex.ru/i/zj8SKEdwAv5f7g', caption='<b><i>1 кл. внебюджет (7-9 лет) -</i></b> раскрасить рисунок', parse_mode='HTML')
-     bot.send_photo(message.chat.id, 'https://disk.yandex.ru/i/UZT1IwQBaXjASA', caption='<b><i>1 кл. внебюджет (10-14 лет) -</i></b> расставить тактовые чёрточки', parse_mode='HTML')
+     bot.send_photo(message.chat.id, 'https://disk.yandex.ru/i/zj8SKEdwAv5f7g', caption='<b><i>1 кл. внебюджет, сольфеджио (7-9 лет) -</i></b> раскрасить рисунок', parse_mode='HTML')
+     bot.send_photo(message.chat.id, 'https://disk.yandex.ru/i/UZT1IwQBaXjASA', caption='<b><i>1 кл. внебюджет, сольфеджио (10-14 лет) -</i></b> расставить тактовые чёрточки', parse_mode='HTML')
 
     elif(message.text == "27, 29 сентября 2025"):     
      bot.send_message(message.chat.id,
@@ -466,8 +466,8 @@ def func(message):
                       "\n\n<b><i>Музыкальная литература:</i></b> Класса нет\n",
                          parse_mode='HTML')
      bot.send_photo(message.chat.id, 'https://disk.yandex.ru/i/C-G_7LJ4x_q6ow', caption='<b><i>6 и 7 классы:</i></b> диктант транспонировать в Тональность с 3 знаками (на выбор - либо ля мажор, либо ми бемоль мажор)', parse_mode='HTML')
-     bot.send_photo(message.chat.id, 'https://disk.yandex.ru/i/vDeoyZpoboVpdQ', caption='<b><i>1 кл. внебюджет (7-9 лет):</i></b> нарисовать музыкальную лесенку (на фото примеры того, как она может выглядеть), подписать ступеньки (как в классе)', parse_mode='HTML')
-     bot.send_message(message.chat.id, "<b><i>1 кл. внебюджет (10-14 лет):</i></b> Построить в тетради от до, ми, соль, си полутон вверх. \nОт нот ре, фа, ля построить тон вверх", parse_mode='HTML')   
+     bot.send_photo(message.chat.id, 'https://disk.yandex.ru/i/vDeoyZpoboVpdQ', caption='<b><i>1 кл. внебюджет, сольфеджио (7-9 лет):</i></b> нарисовать музыкальную лесенку (на фото примеры того, как она может выглядеть), подписать ступеньки (как в классе)', parse_mode='HTML')
+     bot.send_message(message.chat.id, "<b><i>1 кл. внебюджет, сольфеджио (10-14 лет):</i></b> Построить в тетради от до, ми, соль, си полутон вверх. \nОт нот ре, фа, ля построить тон вверх", parse_mode='HTML')   
 
     elif(message.text == "4, 6 октября 2025"):     
      bot.send_message(message.chat.id,
@@ -479,7 +479,7 @@ def func(message):
                       "<b><i>Слушание музыки:</i></b> урок 4, письменно ответить на вопросы стр 25\n\n "
                       
                       "<b><i>2 класс:</i></b>\n<b><i>Сольфеджио:</i></b> Рт. С. 13 номер 4, с. 17 номер 9\n\n"
-                      "<b><i>Слушание музыки:</i></b> урок 1, прочитать. Выучить определение музыкального образа и его истоки.\nурок 1, прочитать. Выучить определение музыкального образа и его истоки\n\n "
+                      "<b><i>Слушание музыки:</i></b> урок 1, прочитать. Выучить определение музыкального образа и его истоки.\nЗадание 1, О рыцарях, любви, добре и зле.\n\n "
                       
                       "<b><i>3 класс:</i></b>\n<b><i>Сольфеджио:</i></b> Построить в тетради любую мажорую Тональность и одноименную минорную. Обвести 3,6,7 ступени\n\n"
                       "<b><i>Слушание музыки:</i></b> урок 6, письменно ответить на вопросы стр 40\n\n " 
@@ -500,8 +500,8 @@ def func(message):
                       "\n\n<b><i>Музыкальная литература:</i></b> Класса нет\n",
                          parse_mode='HTML')
 
-     bot.send_message(message.chat.id, "<b><i>1 кл. внебюджет (7-9 лет):</i></b> \n1)рт. С. 15 номер 20,21 (доделать классную работу) \n2) рт. С. 6 номера 2,3 (раскрасить нотки)", parse_mode='HTML')
-     bot.send_message(message.chat.id, "<b><i>1 кл. внебюджет (10-14 лет):</i></b> Учебник калмыков фридкин номера 169,170,172 выучить наизусть и петь с дирижированием", parse_mode='HTML')        
+     bot.send_message(message.chat.id, "<b><i>1 кл. внебюджет, сольфеджио (7-9 лет):</i></b> \n1)рт. С. 15 номер 20,21 (доделать классную работу) \n2) рт. С. 6 номера 2,3 (раскрасить нотки)", parse_mode='HTML')
+     bot.send_message(message.chat.id, "<b><i>1 кл. внебюджет, сольфеджио (10-14 лет):</i></b> Учебник калмыков фридкин номера 169,170,172 выучить наизусть и петь с дирижированием", parse_mode='HTML')        
 
     elif(message.text == "(locked)11, 13 октября 2025"):     
      bot.send_message(message.chat.id,
