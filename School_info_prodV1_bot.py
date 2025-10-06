@@ -395,7 +395,7 @@ def func(message):
                       "\n\n<b><i>Музыкальная литература:</i></b> Класса нет\n",
                         parse_mode='HTML')
      bot.send_photo(message.chat.id, 'https://disk.yandex.ru/i/iAJKmwZ1Q0lEJA', caption='Задание для 1 класса для тех, кто ноты знает. Прохлопать ритмические рисунки. сначала каждую строчку отдельно, затем попробовать двумя руками (например, 1 строчка - правая рука, 2 строчка - левая.) можно распечатать и разрезать ритмы по строчкам и комбинировать разные варианты ритмических партитур.' )
-     bot.send_photo(message.chat.id, 'https://disk.yandex.ru/i/sVil6IJdZX1oXg', caption='<b><i>6, 7 классы –</i><b> пользуясь буквенными обозначениями подписать аккорды в гармонии', parse_mode='HTML')
+     bot.send_photo(message.chat.id, 'https://disk.yandex.ru/i/sVil6IJdZX1oXg', caption='<b><i>6, 7 классы –</i></b> пользуясь буквенными обозначениями подписать аккорды в гармонии', parse_mode='HTML')
      bot.send_message(message.chat.id, 'Дополнение (для всех классов): обязательно хлопаем со счётом вслух. Не молчим. Раз и 2 и 3 и 4 и')
         
     elif(message.text == "20, 22 сентября 2025"):     
