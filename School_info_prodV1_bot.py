@@ -693,9 +693,9 @@ def func(message):
                       "\n\n<b><i>Музыкальная литература:</i></b> Класса нет\n",
                          parse_mode='HTML')
         
-         bot.send_photo(message.chat.id, 'https://disk.yandex.ru/i/eua5GyUyaWOVzg', caption='<b><i>3 класс, сольфеджио:</i></b>\nСлушать интервалы в тренажёре.\nhttps://идеальныйслух.рф/\nНа фото инструкция', parse_mode='HTML')
-         bot.send_message(message.chat.id, "<b><i>1 кл. внебюджет, сольфеджио (7-9 лет):</i></b>\nр.т. с. 25 номер 9 А и Б только до мажор", parse_mode='HTML')
-         bot.send_message(message.chat.id, "<b><i>1 кл. внебюджет, сольфеджио (10-14 лет):</i></b>\nПостроить в нотной тетради все интервалы от примы до октавы от ноты 'ми' (как в классе)", parse_mode='HTML')
+     bot.send_photo(message.chat.id, 'https://disk.yandex.ru/i/eua5GyUyaWOVzg', caption='<b><i>3 класс, сольфеджио:</i></b>\nСлушать интервалы в тренажёре.\nhttps://идеальныйслух.рф/\nНа фото инструкция', parse_mode='HTML')
+     bot.send_message(message.chat.id, "<b><i>1 кл. внебюджет, сольфеджио (7-9 лет):</i></b>\nр.т. с. 25 номер 9 А и Б только до мажор", parse_mode='HTML')
+     bot.send_message(message.chat.id, "<b><i>1 кл. внебюджет, сольфеджио (10-14 лет):</i></b>\nПостроить в нотной тетради все интервалы от примы до октавы от ноты 'ми' (как в классе)", parse_mode='HTML')
 
     elif(message.text == "22, 24 ноября 2025(locked)"):     
      bot.send_message(message.chat.id,
