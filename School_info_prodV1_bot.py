@@ -1000,13 +1000,8 @@ def func(message):
                       "\n\n<b><i>Музыкальная литература:</i></b>\n Класса нет",
                          parse_mode='HTML')
 
-     audio_path = '/home/ubuntu/BotTG/диктант до мажор 4 и 6 классы.m4a'
-     audio_path2 = '/home/ubuntu/BotTG/диктант ре минор 5 класс.m4a'
-        with open(audio_path, 'rb') as audio:
-             bot.send_audio(message.chat.id, audio, caption='диктант до мажор 4 и 6 классы')            
-        with open(audio_path2, 'rb') as audio2:
-             bot.send_audio(message.chat.id, audio2, caption='диктант ре минор 5 класс')
-  
+     bot.send_message(message.chat.id, "Диктант 4 и 6 классы: https://disk.yandex.ru/d/iGXscLdo8WX6aw", parse_mode='HTML')
+     bot.send_message(message.chat.id, "Диктант 5 класс: https://disk.yandex.ru/d/axc2WJjnjW1e2A", parse_mode='HTML')   
      bot.send_message(message.chat.id, "<b><i>1 кл. внебюджет, сольфеджио (7-9 лет):</i></b> Группа в 11:40:В учебнике номер 211 петь с дирижированием\n\nГруппа в 12:20: В учебнике номер 211 прохлопать ритм со счётом (на раз и два и три и четыре и)\n", parse_mode='HTML')
      bot.send_photo(message.chat.id, 'https://disk.yandex.ru/i/PvMDM9FlPC_4LQ', caption="<b><i>1 кл. внебюджет, сольфеджио (10-14 лет):</i></b> 1) рт. С. 31 номер 18\n2) подписать интервалы\n", parse_mode='HTML')
 
