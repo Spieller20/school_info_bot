@@ -973,7 +973,9 @@ def func(message):
      bot.send_message(message.chat.id, "<b><i>1 кл. внебюджет, сольфеджио (7-9 лет):</i></b>\n Р.Т. с.25 №9 F-dur\n", parse_mode='HTML')
      bot.send_message(message.chat.id, "<b><i>1 кл. внебюджет, сольфеджио (10-14 лет):</i></b>\n Р.Т. с.31 №16'A', 17\n", parse_mode='HTML')
 
-    elif(message.text == "31 января 2026"):     
+    elif(message.text == "31 января 2026"):
+        audio_url='https://disk.yandex.ru/d/iGXscLdo8WX6aw'
+        audio_url2='https://disk.yandex.ru/d/axc2WJjnjW1e2A'
      bot.send_message(message.chat.id,                      
                       "<b><i>1 класс:</i></b>\n<b><i>Сольфеджио:</i></b> Группа в 11:40:В учебнике номер 211 петь с дирижированием\nГруппа в 12:20: В учебнике номер 211 прохлопать ритм со счётом (на раз и два и три и четыре и)\n\n"
                       "<b><i>Слушание музыки:</i></b> Урок 13, письменно ответить на вопросы стр 94\n\n "
@@ -999,8 +1001,8 @@ def func(message):
                       "<b><i>8 класс:</i></b>\n<b><i>Сольфеджио:</i></b> Класса нет"
                       "\n\n<b><i>Музыкальная литература:</i></b>\n Класса нет",
                          parse_mode='HTML')
-     bot.send_audio(message.chat.id, 'https://disk.yandex.ru/d/iGXscLdo8WX6aw', parse_mode='HTML')
-     bot.send_audio(message.chat.id, 'https://disk.yandex.ru/d/axc2WJjnjW1e2A', parse_mode='HTML')
+     bot.send_audio(message.chat.id, audio_url)
+     bot.send_audio(message.chat.id, audio_url2)
      bot.send_message(message.chat.id, "<b><i>1 кл. внебюджет, сольфеджио (7-9 лет):</i></b> Группа в 11:40:В учебнике номер 211 петь с дирижированием\nГруппа в 12:20: В учебнике номер 211 прохлопать ритм со счётом (на раз и два и три и четыре и)\n", parse_mode='HTML')
      bot.send_message(message.chat.id, "<b><i>1 кл. внебюджет, сольфеджио (10-14 лет):</i></b> 1) рт. С. 31 номер 18\n2) подписать интервалы\n", parse_mode='HTML')
 
