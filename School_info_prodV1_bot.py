@@ -999,8 +999,10 @@ def func(message):
                       "<b><i>8 класс:</i></b>\n<b><i>Сольфеджио:</i></b> Класса нет"
                       "\n\n<b><i>Музыкальная литература:</i></b>\n Класса нет",
                          parse_mode='HTML')
-     '''bot.send_audio(message.chat.id, 'https://disk.yandex.ru/d/iGXscLdo8WX6aw')
-     bot.send_audio(message.chat.id, 'https://disk.yandex.ru/d/axc2WJjnjW1e2A')'''
+    with open('диктант до мажор 4 и 6 классы.m4a', 'rb') as auduo:    
+     bot.send_audio(message.chat.id, audio) 
+    with open('диктант ре минор 5 класс.m4a', 'rb') as audio2:
+     bot.send_audio(message.chat.id, audio2)
      bot.send_message(message.chat.id, "<b><i>1 кл. внебюджет, сольфеджио (7-9 лет):</i></b> Группа в 11:40:В учебнике номер 211 петь с дирижированием\n\nГруппа в 12:20: В учебнике номер 211 прохлопать ритм со счётом (на раз и два и три и четыре и)\n", parse_mode='HTML')
      bot.send_photo(message.chat.id, 'https://disk.yandex.ru/i/PvMDM9FlPC_4LQ', caption="<b><i>1 кл. внебюджет, сольфеджио (10-14 лет):</i></b> 1) рт. С. 31 номер 18\n2) подписать интервалы\n", parse_mode='HTML')
 
