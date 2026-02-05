@@ -1000,11 +1000,10 @@ def func(message):
                       "\n\n<b><i>Музыкальная литература:</i></b>\n Класса нет",
                          parse_mode='HTML')
 
-        audio_path = 'home/ubuntu/BotTG/диктант до мажор 4 и 6 классы.m4a'
-        audio_path2 = 'home/ubuntu/BotTG/диктант ре минор 5 класс.m4a'
+audio_path = 'home/ubuntu/BotTG/диктант до мажор 4 и 6 классы.m4a'
+audio_path2 = 'home/ubuntu/BotTG/диктант ре минор 5 класс.m4a'
         with open(audio_path, 'rb') as audio:
-            bot.send_audio(message.chat.id, audio, caption='диктант до мажор 4 и 6 классы')
-            
+            bot.send_audio(message.chat.id, audio, caption='диктант до мажор 4 и 6 классы')            
         with open(audio_path2, 'rb') as audio2:
             bot.send_audio(message.chat.id, audio2, caption='диктант ре минор 5 класс')
   
