@@ -999,6 +999,7 @@ def func(message):
                       "<b><i>8 класс:</i></b>\n<b><i>Сольфеджио:</i></b> Класса нет"
                       "\n\n<b><i>Музыкальная литература:</i></b>\n Класса нет",
                          parse_mode='HTML')
+    def send_separate_audios(message):    
     with open('диктант до мажор 4 и 6 классы.m4a', 'rb') as audio:    
      bot.send_audio(message.chat.id, audio) 
     with open('диктант ре минор 5 класс.m4a', 'rb') as audio2:
