@@ -1001,7 +1001,9 @@ def func(message):
                          parse_mode='HTML')
 
      bot.send_message(message.chat.id, "Диктант 4 и 6 классы: https://disk.yandex.ru/d/iGXscLdo8WX6aw", parse_mode='HTML')
-     bot.send_message(message.chat.id, "Диктант 5 класс: https://disk.yandex.ru/d/axc2WJjnjW1e2A", parse_mode='HTML')   
+     bot.send_message(message.chat.id, "Диктант 5 класс: https://disk.yandex.ru/d/axc2WJjnjW1e2A", parse_mode='HTML')
+     bot.send_audio(message.chat.id, 'https://disk.yandex.ru/d/iGXscLdo8WX6aw/download', caption='Диктант 4 и 6 классы', parse_mode='HTML')   
+     bot.send_audio(message.chat.id, 'https://disk.yandex.ru/d/axc2WJjnjW1e2A/download', caption='Диктант 5 класс', parse_mode='HTML')   
      bot.send_message(message.chat.id, "<b><i>1 кл. внебюджет, сольфеджио (7-9 лет):</i></b> Группа в 11:40:В учебнике номер 211 петь с дирижированием\n\nГруппа в 12:20: В учебнике номер 211 прохлопать ритм со счётом (на раз и два и три и четыре и)\n", parse_mode='HTML')
      bot.send_photo(message.chat.id, 'https://disk.yandex.ru/i/PvMDM9FlPC_4LQ', caption="<b><i>1 кл. внебюджет, сольфеджио (10-14 лет):</i></b> 1) рт. С. 31 номер 18\n2) подписать интервалы\n", parse_mode='HTML')
 
