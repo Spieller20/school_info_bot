@@ -294,9 +294,9 @@ def func(message):
      markup.add(btn1, btn2, btn3, btn4, btn5, btn6,btn7)
      bot.send_message(message.chat.id,text="Выберите дату урока", reply_markup=markup) 
 
-    elif(message.text == "Февраль(locked)"):
+    elif(message.text == "Февраль"):
      markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
-     btn1 = types.KeyboardButton("7, 9 февраля 2026")
+     btn1 = types.KeyboardButton("7 февраля 2026")
      btn2 = types.KeyboardButton("14, 16 февраля 2026")
      btn3 = types.KeyboardButton("21, 23 февраля 2026")
      btn4 = types.KeyboardButton("28 февраля, 2 марта 2026")
@@ -1035,7 +1035,7 @@ def func(message):
      bot.send_message(message.chat.id, "<b><i>1 кл. внебюджет, сольфеджио (7-9 лет):</i></b> Рт. С. 14 номер 16\n", parse_mode='HTML')
      bot.send_message(message.chat.id, "<b><i>1 кл. внебюджет, сольфеджио (10-14 лет):</i></b> Рт. С. 14 номера 16,17\n", parse_mode='HTML')
 
-    elif(message.text == "14, 16 февраля 2026"):
+    elif(message.text == "14, 16 февраля 2026(locked)"):
      
      bot.send_message(message.chat.id,
                       "<b><i>1 класс:</i></b>\n<b><i>Сольфеджио:</i></b>\n\n"
@@ -1066,8 +1066,9 @@ def func(message):
      bot.send_message(message.chat.id, "<b><i>1 кл. внебюджет, сольфеджио (7-9 лет):</i></b>\n", parse_mode='HTML')
      bot.send_message(message.chat.id, "<b><i>1 кл. внебюджет, сольфеджио (10-14 лет):</i></b>\n", parse_mode='HTML')
 
-    elif(message.text == "21, 23 февраля 2026"):     
-     bot.send_message(message.chat.id,                      "<b><i>1 класс:</i></b>\n<b><i>Сольфеджио:</i></b>\n\n"
+    elif(message.text == "21, 23 февраля 2026(locked)"):     
+     bot.send_message(message.chat.id,                      
+                      "<b><i>1 класс:</i></b>\n<b><i>Сольфеджио:</i></b>\n\n"
                       "<b><i>Слушание музыки:</i></b>\n\n "
                       
                       "<b><i>2 класс:</i></b>\n<b><i>Сольфеджио:</i></b>\n\n"
@@ -1095,7 +1096,7 @@ def func(message):
      bot.send_message(message.chat.id, "<b><i>1 кл. внебюджет, сольфеджио (7-9 лет):</i></b>\n", parse_mode='HTML')
      bot.send_message(message.chat.id, "<b><i>1 кл. внебюджет, сольфеджио (10-14 лет):</i></b>\n", parse_mode='HTML')
 
-    elif(message.text == "28 февраля, 2 марта 2026"):     
+    elif(message.text == "28 февраля, 2 марта 2026(locked)"):     
      bot.send_message(message.chat.id,                      
                       "<b><i>1 класс:</i></b>\n<b><i>Сольфеджио:</i></b>\n\n"
                       "<b><i>Слушание музыки:</i></b>\n\n "
