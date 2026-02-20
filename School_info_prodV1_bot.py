@@ -297,7 +297,7 @@ def func(message):
     elif(message.text == "Февраль"):
      markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
      btn1 = types.KeyboardButton("7 февраля 2026")
-     btn2 = types.KeyboardButton("14, 16 февраля 2026")
+     btn2 = types.KeyboardButton("14 февраля 2026")
      btn3 = types.KeyboardButton("21, 23 февраля 2026")
      btn4 = types.KeyboardButton("28 февраля, 2 марта 2026")
      btn5 = types.KeyboardButton("Домашние задания")
