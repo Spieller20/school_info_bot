@@ -16,7 +16,7 @@ env_path = Path(__file__).parent / 'School_Bot.env'
 load_dotenv(dotenv_path=env_path)
 TOKEN = os.getenv("BOT_TOKEN") # создание бота
 
-bot = TeleBot(token=TOKEN)
+bot = TeleBot(token=TOKEN, threaded=True, num_threads=5)
 
 # обработчик команды '/start': главное меню
 @bot.message_handler(commands=['start'])
