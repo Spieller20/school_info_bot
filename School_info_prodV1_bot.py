@@ -1184,7 +1184,7 @@ def func(message):
                       "\n\n<b><i>Музыкальная литература:</i></b> Класса нет\n",
                          parse_mode='HTML')
   
-     bot.send_message(message.chat.id, "<b><i>1 кл. внебюджет, сольфеджио (7-9 лет):</i></b> Раскраска\n", parse_mode='HTML')
+     bot.send_message(message.chat.id, "<b><i>1 кл. внебюджет, сольфеджио (7-9 лет):</i></b> Раскраска.\n", parse_mode='HTML')
      bot.send_message(message.chat.id, "<b><i>1 кл. внебюджет, сольфеджио (10-14 лет):</i></b> В тренажёре слушать интервалы и трезвучия.\n", parse_mode='HTML')
 
     elif(message.text == "21, 23 марта 2026(locked)"):     
