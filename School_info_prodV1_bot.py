@@ -1178,16 +1178,16 @@ def func(message):
                       "\n\n<b><i>Музыкальная литература:</i></b> Учебник Шорникова 3 год обучения Русская Музыкальная литература, урок 1, письменно ответить на вопросы стр 11\n\n "
                       
                       "<b><i>7 класс:</i></b>\n<b><i>Сольфеджио:</i></b> Презентация по сообщению ниже"
-                      "\n\n<b><i>Музыкальная литература:</i></b>\n\n "
+                      "\n\n<b><i>Музыкальная литература:</i></b> Повторять записи в теьради\n\n "
                       
                       "<b><i>8 класс:</i></b>\n<b><i>Сольфеджио:</i></b> Класса нет"
                       "\n\n<b><i>Музыкальная литература:</i></b> Класса нет\n",
                          parse_mode='HTML')
 
-     bot.send_file(message.chat.id, "https://disk.yandex.ru/i/Exqyt5SdeAY5kQ", caption="Презентация для 4, 5, 6 классов (Тема: Группировка длительностей)", parse_mode="HTML")
-     bot.send_file(message.chat.id, "https://disk.yandex.ru/i/FBnMipouqMnNyA", caption="Презентация для 7 класса (Тема: Хроматическая гамма)", parse_mode="HTML")   
+     bot.send_file(message.chat.id, 'https://disk.yandex.ru/i/Exqyt5SdeAY5kQ', caption='Презентация для 4, 5, 6 классов (Тема: Группировка длительностей)', parse_mode="HTML")
+     bot.send_file(message.chat.id, 'https://disk.yandex.ru/i/FBnMipouqMnNyA', caption='Презентация для 7 класса (Тема: Хроматическая гамма)', parse_mode="HTML")   
      bot.send_message(message.chat.id, "<b><i>1 кл. внебюджет, сольфеджио (7-9 лет):</i></b> Раскраска\n", parse_mode='HTML')
-     bot.send_message(message.chat.id, "<b><i>1 кл. внебюджет, сольфеджио (10-14 лет):</i></b>\n", parse_mode='HTML')
+     bot.send_message(message.chat.id, "<b><i>1 кл. внебюджет, сольфеджио (10-14 лет):</i></b> В тренажёре слушать интервалы и трезвучия.\n", parse_mode='HTML')
 
     elif(message.text == "21, 23 марта 2026(locked)"):     
      bot.send_message(message.chat.id,
