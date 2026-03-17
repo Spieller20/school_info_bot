@@ -1153,7 +1153,7 @@ def func(message):
                       "\n\n<b><i>Музыкальная литература:</i></b> Класса нет\n",
                          parse_mode='HTML')
 
-     bot.send_photo(message.chat.id, "https://disk.yandex.ru/i/CEc2e2q2C-TLIA", "Диктант для 4-го 6-го классов", parse_mode='HTML')
+     bot.send_photo(message.chat.id, 'https://disk.yandex.ru/i/CEc2e2q2C-TLIA', caption='Диктант для 4-го 6-го классов', parse_mode='HTML')
      bot.send_message(message.chat.id, "<b><i>1 кл. внебюджет, сольфеджио (7-9 лет):</i></b> Рт. С. 29 номер 4 (в, г)\n", parse_mode='HTML')
      bot.send_message(message.chat.id, "<b><i>1 кл. внебюджет, сольфеджио (10-14 лет):</i></b> В тренажёре идеальный слух слушать трезвучия\n", parse_mode='HTML')
 
@@ -1183,7 +1183,8 @@ def func(message):
                       "<b><i>8 класс:</i></b>\n<b><i>Сольфеджио:</i></b> Класса нет"
                       "\n\n<b><i>Музыкальная литература:</i></b> Класса нет\n",
                          parse_mode='HTML')
-  
+
+     bot.send_file(message.chat.id, 'https://disk.yandex.ru/i/Exqyt5SdeAY5kQ', caption='Группировка длительностей (4, 5, 6 классы)', parse_mode='HTML')
      bot.send_message(message.chat.id, "<b><i>1 кл. внебюджет, сольфеджио (7-9 лет):</i></b> Раскраска\n", parse_mode='HTML')
      bot.send_message(message.chat.id, "<b><i>1 кл. внебюджет, сольфеджио (10-14 лет):</i></b> В тренажёре слушать интервалы и трезвучия.\n", parse_mode='HTML')
 
