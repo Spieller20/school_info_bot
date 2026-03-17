@@ -1184,7 +1184,6 @@ def func(message):
                       "\n\n<b><i>Музыкальная литература:</i></b> Класса нет\n",
                          parse_mode='HTML')
 
-     bot.send_file(message.chat.id, 'https://disk.yandex.ru/i/Exqyt5SdeAY5kQ', caption='Группировка длительностей (4, 5, 6 классы)', parse_mode='HTML')
      bot.send_message(message.chat.id, "<b><i>1 кл. внебюджет, сольфеджио (7-9 лет):</i></b> Раскраска\n", parse_mode='HTML')
      bot.send_message(message.chat.id, "<b><i>1 кл. внебюджет, сольфеджио (10-14 лет):</i></b> В тренажёре слушать интервалы и трезвучия.\n", parse_mode='HTML')
 
